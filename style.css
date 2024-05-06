@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color:#f58921;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 580px){
+    div.navbar {
+        display: none
+    }
+}
+@media screen and (min-width: 580px){
+}
+ 
+.navbar a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #e8ad21;
+}
+
+
+
+
+
+/* Stil for seksjoner */
+.section {
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+/* Stil for knapper */
+button {
+    margin: 10px;
+}
