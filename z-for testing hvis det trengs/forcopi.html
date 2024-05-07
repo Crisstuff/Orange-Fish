@@ -8,18 +8,99 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
-        <a href="">Home</a>
+    <div class="topnav">
+        <a class="active" href=""><i class="fa fa-fw fa-home"></i> Home</a>
         <a href="sections/orangeclan.html">Orange clan </a>
         <a href="projects.html">Projects </a>
         <a href="content.html">Content</a>
-        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-        <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-        <input type="text" placeholder="Search..">
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        <input  type="text" id="mySearch" onkeyup="searchBar()" placeholder="Search.." title="Type in a category">
     </div>
 
-    <div class="main-page">
-    </div>
+    <section class="section1" id="section1">
+        <div class="top-display">
+            <div class="side1">
+                <h1 class="beskrivelse">
+                    This is photo site 
+                </h1>
+                <p>dskjjkcdfnjkdfkjnjknjk</p>
+                <div class="buttons-1">
+                    <button onclick="scrollToSection('section1')">PHOTO</button>
+                    <button onclick="scrollToSection('section2')">DESIGN</button>
+                    <button onclick="scrollToSection('politi    ')">DESIGN</button>
+                    <button onclick="scrollToSection('politi1-ringbarnevernet')">DESIGN</button>
+                </div>
+
+            </div>
+            <br>
+            <div class="side2">
+                <button>insta</button>
+                <br>
+                <button>github</button>
+                <br>
+                <button>photo</button>
+            </div>
+        </div>
+        <div class="content-top">
+            <!--NOTAT   Du kan sikkert brike alt til og display tid og dato til projekt-->
+            <!--finn en måde du kan skule dottenog texten før og etter fisken -->
+            <!-- få content til å se på li, a og img som at de er inne i content sånn at di ikke går ut når det er for mange -->
+            <ul class="content" id="myMenu">
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">HTML</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">CSS</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">JavaScript</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">PHP</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">Python</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Node.js</a></li>
+            </ul>
+
+        </div>
+    </section>
+    <section id="section2">
+        <div class="top-display">
+            <div class="side1">
+                <h1 class="beskrivelse">
+                    This is photo site 
+                </h1>
+                <p>dskjjkcdfnjkdfkjnjknjk</p>
+                <div class="buttons-1">
+                    <button onclick="scrollToSection('se')">PHOTO</button>
+                    <button onclick="scrollToSection('politi1-ringbarnevernet')">DESIGN</button>
+                    <button onclick="scrollToSection('politi1-ringbarnevernet')">DESIGN</button>
+                    <button onclick="scrollToSection('politi1-ringbarnevernet')">DESIGN</button>
+                </div>
+
+            </div>
+            <br>
+            <div class="side2">
+                <button>insta</button>
+                <br>
+                <button>github</button>
+                <br>
+                <button>photo</button>
+            </div>
+        </div>
+        <div class="content-top">
+            <!--NOTAT   Du kan sikkert brike alt til og display tid og dato til projekt-->
+            <!--finn en måde du kan skule dottenog texten før og etter fisken -->
+            <!-- få content til å se på li, a og img som at de er inne i content sånn at di ikke går ut når det er for mange -->
+            <ul class="content" id="myMenu">
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">HTML</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">CSS</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">JavaScript</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">PHP</a></li>
+                <li><a href="#"><img src="../img/orangefish.png" alt="" width="300px">Python</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Node.js</a></li>
+            </ul>
+
+        </div>
+    </section>
     <script src="story.js"></script>
 </body>
 </html>

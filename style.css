@@ -1,6 +1,9 @@
 body{
     text-align: center;
 }
+h2{
+    font-size:30px  ;
+}
 
 .navbar {
     position: sticky;
@@ -42,4 +45,27 @@ body{
 /* Stil for knapper */
 button {
     margin: 10px;
+}
+
+
+.sidepage{
+    display: flex;
+    background-color: chocolate;
+    padding: 50px;
+}
+.sidepage-side1{
+    width: 50%;
+}
+.sidepage-side2{
+    width: 50%;
+    text-align: left;
+}
+
+.posterpage{
+    display: flex;
+}
+.posterpage-text{
+    background-color: #e8ad21;
+    padding: 40px;
+    width: 700px;
 }
