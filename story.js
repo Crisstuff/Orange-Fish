@@ -14,6 +14,8 @@ function scrollToSection(sectionId) {
         section.scrollIntoView({ behavior: 'smooth', block: 'start' });
         // Oppdater den forrige seksjonen
         previousSection = section;
+    }else{
+        window.onload = addStorySection("content", "my-favoritt");
     }
 }
 
