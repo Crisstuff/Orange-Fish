@@ -29,7 +29,37 @@ h2{
 .navbar a:hover{
     background-color: #e8ad21;
 }
-
+.topnav {
+    overflow: hidden;
+    background-color: #f58921;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e8ad21;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: chocolate;
+    color: white;
+  }
 
 
 
@@ -69,3 +99,14 @@ button {
     padding: 40px;
     width: 700px;
 }
+
+.hamburger-menu{
+    
+}
+
+.hamburger-line {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 251, 251);
+    margin: 6px 0;
+  }

@@ -100,9 +100,11 @@ section {
 }
 .content{
   display: flex;
-
+  list-style-type: none;
+  font-size: 0;
 }
 
 img{
-  opacity: 30px;
+  padding: 9px;
+  display:inline-block;
 }
