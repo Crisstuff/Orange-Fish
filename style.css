@@ -124,6 +124,34 @@ button {
     margin: 6px 0;
 }
 
+
+.top-fishanimation{
+    width: 800px;
+    position: relative;
+    left: -25%;
+    animation-name: fishanimation;
+    animation-duration: 2s;
+}
+@keyframes fishanimation {
+    0%   { left:0px; top:0px;}
+    100% { right:0px; top:0px;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*all font styling is under here */
 h1{
     font-family: Bungee;
