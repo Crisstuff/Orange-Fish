@@ -81,7 +81,11 @@ h2{
 }
 /* Stil for knapper */
 button {
-    margin: 10px;
+
+    border: solid #ffd87c;
+    background-color: #A67500;
+    color: white;
+    font-size: 30px;
 }
 
 
