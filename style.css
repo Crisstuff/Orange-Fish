@@ -1,9 +1,7 @@
 body{
     text-align: center;
 }
-h2{
-    font-size:30px  ;
-}
+
 /*top nav styling ligger under her*/
 .topnav {
     overflow: hidden;
@@ -115,7 +113,9 @@ button {
     width: 700px;
 }
 
-
+.hamburger-menu{
+    display: none;
+}
 
 .hamburger-line {
     width: 35px;
@@ -124,3 +124,15 @@ button {
     margin: 6px 0;
 }
 
+/*all font styling is under here */
+h1{
+    font-family: Bungee;
+    font-size: 50px;
+}
+h2{
+    font-size:30px  ;
+}
+.botnav-p{
+    font-family: Bungee;
+    color:white;
+}
