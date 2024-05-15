@@ -1,13 +1,14 @@
 body{
     text-align: center;
 }
+.side-navn{
 
+}
 /*top nav styling ligger under her*/
 .topnav {
     overflow: hidden;
     background-color: none;
     top: 0;
-    overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
