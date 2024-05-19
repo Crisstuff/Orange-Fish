@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/smallscreen.css">
     <style>
         @import url(https://fonts.googleapis.com/css?family=Bungee:regular);
        
@@ -13,13 +15,15 @@
 </head>
 <body>
     <div class="topnav">
-        <a class="active" href="../index.html"> Home</a>
-        <a href="sections/menu.html">Menu </a>
-        <a href="sections/about.html">About</a>
-        <a onclick="scrollToSection()" href="content.html">Work</a>
-        <a href="">Location</a>
-        <a href=""></a>
-        <a href="sections/logg.html">Logg</a>
+        <div class="topnav-menu">
+            <a class="active" href="../index.html"> Home</a>
+            <a href="sections/menu.html">Menu </a>
+            <a href="sections/about.html">About</a>
+            <a onclick="scrollToSection()" href="content.html">Work</a>
+            <a href="">Location</a>
+            <a href=""></a>
+            <a href="sections/logg.html">Logg</a>
+        </div>
         <div class="hamburger-menu" >
             <div class="hamburger-line"></div>
             <div class="hamburger-line"></div>
@@ -29,18 +33,23 @@
 
     <div class="main-page">
         <div class="top">
-            <h1>The super duper epic page about the amazing Orange Fish</h1>
+            <h1 class="top-text">The super duper epic page about the amazing Orange Fish</h1>
             <img class="top-fishanimation" src="img/orangefishmy.svg" alt="">
         </div>
-        <div class="menupage">
-            <div class="posterpage-text">
+        <div class="homepage-menu">
+            <div class="menupage-text">
                 <h2>Menu</h2>
                 <b>fonts</b>
                 <p class="piepie">piepie</p>
                 <p class="">Article from 1800bc</p>
-                <button>Read more</button>
+                <a href="sections/menu.html"><button>Read more</button></a>
+                
             </div>
-            <button>en ting på menyen </button>
+            <button class="menupage-button">en ting på menyen </button>
+            <button class="menupage-button">meny opsion f.eks barne meny vegitar også videre</button>
+
+          
+        
         </div>
         <div class="sidepage">
             <div class="sidepage-side1">
@@ -61,10 +70,22 @@
         
 
     </div>
-    <h1>Orange Fish</h1>
-    <div class="">
+    <div class="homepage-work">
+        <div class="sidepage">
+            <div class="sidepage-side1">
+                <p>img of someone working width det orangefish logo on them </p>
+            </div>
+            <div class="sidepage-side2">
+                <h1>work for us</h1>
+                <p>a short text saying hallo and giving some starting info </p>
+                <p>maybi a list of what the people at orangefish are lokking for in a worker </p>
+            
+            </div>
+        </div>
+
 
     </div>
+    <h1>Orange Fish</h1>
     <div class="botnav">
         <a href="index.html"> <img src="img/orangefish.png" width="300px"></a>
         <img src="img/orangefish.png" alt="" width="300px">

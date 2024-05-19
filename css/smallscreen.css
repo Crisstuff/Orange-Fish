@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .menupage-button {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hamburger-menu {
+      display: flex;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .topnav-menu {
+      display: none;
+    }
+}
+/*fiks hamburge menu */

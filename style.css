@@ -101,44 +101,49 @@ button {
     text-align: left;
 }
 
-.menupage{
+.homepage-menu{
     display: flex;
     color: white;
     border: solid saddlebrown ;
-
-
 }
-.posterpage-text{
+.menupage-text{
     background-color: #e8ad21;
     padding: 40px;
     width: 700px;
 }
 
 .hamburger-menu{
-    display: none;
+    
 }
 
 .hamburger-line {
     width: 35px;
-    height: 5px;
-    background-color: rgb(255, 251, 251);
+    height: 35px;
+    background-color: rgb(0, 0, 0);
     margin: 6px 0;
 }
 
 
 .top-fishanimation{
-    width: 800px;
+    width: 700px;
     position: relative;
-    left: -25%;
+    left: 0;
     animation-name: fishanimation;
-    animation-duration: 2s;
+    animation-duration: 1.9s;
 }
 @keyframes fishanimation {
-    0%   { left:0px; top:0px;}
+    0%   { left:-39%; top:0px;}
     100% { right:0px; top:0px;}
-  }
+}
 
-
+.top-text{
+    animation-name:toptextanimation;
+    animation-duration: 3s;
+}
+@keyframes toptextanimation {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}
+}
 
 
 
