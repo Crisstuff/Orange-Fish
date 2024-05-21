@@ -1,7 +1,9 @@
 body{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .side-navn{
+    display: none;
 
 }
 /*top nav styling ligger under her*/
@@ -10,10 +12,10 @@ body{
     background-color: none;
     top: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     display: block;
     color: rgb(192, 173, 173);
@@ -21,9 +23,9 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  /* Change the color of links on hover */
+/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #e8ad21;
     color: rgb(255, 255, 255);
@@ -58,8 +60,8 @@ body{
     font-size: 17px;
 }
 
-  /* Change the color of links on hover */
-  .botnav a:hover {
+/* Change the color of links on hover */
+.botnav a:hover {
     color: black;
 }
  
@@ -80,7 +82,6 @@ body{
 }
 /* Stil for knapper */
 button {
-
     border: solid #ffd87c;
     background-color: #A67500;
     color: white;
@@ -111,9 +112,25 @@ button {
     padding: 40px;
     width: 700px;
 }
+.menupage-buttons{
+    display: flex;
+}
+.menupage-button1{
+    font-family: Bungee;
+    width: max-content;
+    padding: 80px;
+    background-image:url(mdskcmkjn) ;
+}
+.menupage-button2{
+    font-family: Bungee;
+    width: max-content;
+    padding: 80px;
+    background-image:url(nfdvjkn) ;
+}
+
 
 .hamburger-menu{
-    
+    display: none;
 }
 
 .hamburger-line {
