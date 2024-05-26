@@ -22,8 +22,6 @@
             <a href="sections/about.html">About</a>
             <a onclick="scrollToSection()" href="sections/work.html">Work</a>
             <a href="sections/location.html">Location</a>
-            <a href=""></a>
-            <a href="sections/logg.html">Logg</a>
         </div>
         <div class="hamburger-menu" >
             <div class="hamburger-line"></div>
@@ -59,14 +57,14 @@
             </div>
             <div class="sidepage-side2">
                 <h1>The story about the OrangeFish</h1>
-                <p></p>
-                <b>Want to lear more about the orangefish?</b>
-                <li>What is orangefish?</li>
-                <li>How did orangefish come to be?</li>
-                <li>And where is orangefish now in the industri?</li>
+                <b>Want to lear more about the OrangeFish?</b>
+                <br><br>
+                <li>What is OrangeFish?</li>
+                <li>How did OrangeFish come to be?</li>
+                <li>And where is OrangeFish now in the industri?</li>
                 <br>
                 <br>
-                <button><a href="">Read more</a></button>
+                <button><a href="sections/about.html">Read more</a></button>
 
             </div>
         </div>
@@ -91,29 +89,30 @@
     </div>
     <div class="">
         <h1>Locations</h1>
-        <img src="" alt="">
-        <p>an img of orangefish map where you can see orangefish locations in the UK</p>
+        <p>A image of orangefish map where you can see orangefish locations in the UK</p>
+        <img class="homepage-location-map" src="img/Screenshot 2024-05-26 at 15.16.29.png" width="1000px">
+        <!--The div element for the map -->
+        <div id="map"></div>
+    
+        <!-- prettier-ignore -->
+        <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+            ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
         
 
     </div>
     <div class="botnav">
-        <a href="index.html"> <img src="img/orangefish.png" width="300px"></a>
-        <img src="img/orangefish.png" alt="" width="300px">
-        <br>
-        <a href="">insta</a>
-        <a href="">facebook</a>
-
-        <a href="">locations</a>
-        <p class="botnav-p">Orange Fish 2024 - ALL RIGHTS RESERVED</p>
-    </div>
-    <script type="module" src="story.js"></script>
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-
-    <!-- prettier-ignore -->
-    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
+        <a href="index.html"> <img src="img/orangefish.png" width="250px"></a>
+        <br><br>
+        <div class="botnav-icon1">
+            <a class="botnav-icon2" href=""><img src="img/icons8-insta-480.png" width="31px"></a>
+            <a class="botnav-icon2" href=""><img src="img/icons8-facebook-500.png" width="30px"></a>
+            <a class="botnav-icon2" href=""><img src="img/icons8-twitter-circled-500.png" width="30px"></a>
+        </div>
     
+        <p class="botnav-p">© Orange Fish 2024 - ALL RIGHTS RESERVED</p>
+        <a href="https://mementor.no/driftsavtale/">Operating agreement from Mementor</a>
+    </div>
+
+    <script type="module" src="story.js"></script>
 </body>
 </html>

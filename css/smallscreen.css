@@ -16,3 +16,9 @@
     }
 }
 /*fiks hamburge menu */
+@media only screen and (max-width: 600px) {
+  .top-fishanimation {
+    display: none;
+    width: 100px;
+  }
+}
