@@ -16,6 +16,17 @@
 </head>
 <body>
     <div class="topnav">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
         <div class="topnav-menu">
             <a class="active" href="../index.html"> Home</a>
             <a href="sections/menu.html">Menu </a>
@@ -23,25 +34,22 @@
             <a onclick="scrollToSection()" href="sections/work.html">Work</a>
             <a href="sections/location.html">Location</a>
         </div>
-        <div class="hamburger-menu" >
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-        </div>
     </div>
 
     <div class="main-page">
         <div class="top">
             <h1 class="top-text">The super duper epic page about the amazing Orange Fish</h1>
-            <img class="top-fishanimation" src="img/orangefish.png" alt="">
+            <div class="top-fish">
+                <img class="top-fishanimation" src="img/orangefish.png" alt="">
+            
+            </div>
         </div>
         <div class="homepage-menu">
             <div class="menupage-text">
                 <h2>Menu</h2>
                 <b>Read our menu</b>
-                <p class="menupage- ">Our menu features a variety of fish-based dishes from around the world, tailored for a fast food setting. We also offer options for children and vegetarian selections for those with dietary restrictions or preferences.</p>
+                <p >Our menu features a variety of fish-based dishes from around the world, in a fast food setting. We also offer options for those with dietary restrictions or preferences.</p>
                 <button><a href="sections/menu.html">Read more</a></button>
-                
             </div>
             <div class="menupage-buttons">
                 <button class="menupage-button1"><a href="">Child</a></button>
@@ -60,12 +68,12 @@
                 <b>Want to lear more about the OrangeFish?</b>
                 <br><br>
                 <li>What is OrangeFish?</li>
+               
+                <li>And where is OrangeFish now in the industry?</li>
                 <li>How did OrangeFish come to be?</li>
-                <li>And where is OrangeFish now in the industri?</li>
                 <br>
                 <br>
                 <button><a href="sections/about.html">Read more</a></button>
-
             </div>
         </div>
         
@@ -74,7 +82,7 @@
 
     </div>
     <div class="homepage-work">
-        <div class="sidepage">
+        <div class="sidepage2">
             <div class="sidepage-side1">
                 <p>img of someone working width det orangefish logo on them </p>
             </div>
@@ -87,17 +95,10 @@
             </div>
         </div>
     </div>
-    <div class="">
+    <div class="location">
         <h1>Locations</h1>
         <p>A image of orangefish map where you can see orangefish locations in the UK</p>
-        <img class="homepage-location-map" src="img/Screenshot 2024-05-26 at 15.16.29.png" width="1000px">
-        <!--The div element for the map -->
-        <div id="map"></div>
-    
-        <!-- prettier-ignore -->
-        <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-            ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
-        
+        <img class="location-map" src="img/Screenshot 2024-05-26 at 15.16.29.png">
 
     </div>
     <div class="botnav">

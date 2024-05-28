@@ -1,11 +1,19 @@
-@media only screen and (min-width: 100px) {
-    .hamburger-menu {
-      display: none;
-    }
-}
+
 @media only screen and (min-width: 100px) {
   .top-fishanimation {
-    display: block;
-    width: 700px ;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 100px) {
+  .hamburger-menu {
+    display: none;
+    
+  }
+}
+@media only screen and (min-width: 100px) {
+  .location-map {
+    width: 100%;
+    
   }
 }

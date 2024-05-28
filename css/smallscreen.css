@@ -15,10 +15,46 @@
       display: none;
     }
 }
-/*fiks hamburge menu */
 @media only screen and (max-width: 600px) {
-  .top-fishanimation {
+  .topnav-menu {
     display: none;
-    width: 100px;
   }
 }
+/*fiks hamburge menu */
+
+@media only screen and (max-width: 600px) {
+  .top-fishanimation {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sidepage2 {
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sidepage {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .top {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .location-map {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
