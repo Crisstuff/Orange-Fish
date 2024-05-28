@@ -40,3 +40,16 @@ async function initMap() {
 initMap();
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const image = document.getElementById("myImage");
+  const overlay = document.getElementById("overlay");
+
+  image.addEventListener("click", () => {
+      overlay.classList.add("visible");
+  });
+
+  overlay.addEventListener("click", () => {
+      overlay.classList.remove("visible");
+  });
+});
+

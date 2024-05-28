@@ -1,0 +1,20 @@
+.top-fishanimation{
+    position: relative;
+    left: 0;
+    animation-name: fishanimation;
+    animation-duration: 1.9s;
+}
+@keyframes fishanimation {
+    0%   { left:-100%; top:0px;}
+    100% { right:0px; top:0px;}
+}
+
+.top-text{
+    width: 50%;
+    animation-name:toptextanimation;
+    animation-duration: 3s;
+}
+@keyframes toptextanimation {
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}
+}

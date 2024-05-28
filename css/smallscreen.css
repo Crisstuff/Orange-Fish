@@ -5,26 +5,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .hamburger-menu {
-      display: flex;
-    }
-}
-
-@media only screen and (max-width: 600px) {
     .topnav-menu {
       display: none;
     }
-}
-@media only screen and (max-width: 600px) {
-  .topnav-menu {
-    display: none;
-  }
 }
 /*fiks hamburge menu */
 
 @media only screen and (max-width: 600px) {
   .top-fishanimation {
-    width: 100%;
+    width: 200%;
   }
 }
 
@@ -47,6 +36,14 @@
   }
 }
 
+
+@media only screen and (max-width: 600px) {
+  .top-text {
+    text-align: center;
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .location-map {
     width: 100%;
@@ -58,3 +55,22 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .sidepage-side2 {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .work-img {
+    width: 200%;
+    text-align: left;
+    
+  }
+}
+@media only screen and (max-width: 600px) {
+  .story-img{
+    width: 200%;
+    text-align: left;
+    
+  }
+}
