@@ -3,6 +3,7 @@
     left: 0;
     animation-name: fishanimation;
     animation-duration: 1.9s;
+    width: 100%;
 }
 @keyframes fishanimation {
     0%   { left:-100%; top:0px;}
