@@ -56,12 +56,9 @@ body{
 
 
 /*felles styling ligger under her*/
-.section {/* Stil for seksjoner */
-    display: none;
-    height: 100vh;
+section {/* Stil for seksjoner */
     justify-content: center;
     align-items: center;
-    font-size: 24px;
 }
 
 
@@ -207,6 +204,9 @@ dialog{
     padding: 5px;
     border-radius: 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    padding: 0px 0px;
 }
 
 

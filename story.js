@@ -29,7 +29,20 @@ function closePopup() {
     popUp.close();
 }
 
+let previousSections = [];
 
+function scrollToSection(sectionId) {
+  let section = document.getElementById(sectionId);
+  //previousSections.style.display = 'none'; ------ meg som prøver å få den forje seksjonen til og forsvine når den neste popper opp
+  if (section) {
+      // Lagre ID-en til den forrige seksjonen
+      previousSections.push(sectionId);
+      // Vis mål-avsnittet
+      section.style.display = 'flex';
+      // Rull til mål-avsnittet
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' }) 
+  }
+}
 
 
 

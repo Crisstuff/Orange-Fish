@@ -16,30 +16,21 @@
         <a href="about.html">About</a>
         <a href="work.html">Work</a>
         <a href="location.html">Location</a>
-        <div class="hamburger-menu" >
-            <a href=""></a>
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-        </div>
     </div>
 
     <div class="main-page">
-        <section></section>
-        <div id="main-menu" class="main-menu">
+        <section id="main-menu">
             <img src="../img/icons8-facebook-500.png" alt="">
-        </div>
-        <div id="child-menu" class="child-menu">
+        </section>
+        <section id="child-menu">
             <img src="../img/icons8-insta-480.png" alt="">
-        </div>
-        <div id="child-menu" class="vegetarian-menu">
-            <img src="../img/icons8-twitter-circled-500.png" alt="">
-        </div>
-        <img src="" alt="">
-        <p>start with a plain menu that you made in photo shop- something like fly chicken </p>
-        <p>if you got more time can you try to do somthing simalar to burger king or mc donalds </p>
+            <!-- Child menu content -->
+        </section>
         
-           
+        <section id="vegetarian-menu">
+            <img src="../img/icons8-twitter-circled-500.png" alt="">
+            <!-- Vegetarian menu content -->
+        </section>
         
 
         
@@ -54,10 +45,26 @@
             <a class="botnav-icon2" href=""><img src="../img/icons8-facebook-500.png" width="30px"></a>
             <a class="botnav-icon2" href=""><img src="../img/icons8-twitter-circled-500.png" width="30px"></a>
         </div>
-    
         <p class="botnav-p">© Orange Fish 2024 - ALL RIGHTS RESERVED</p>
         <a href="https://mementor.no/driftsavtale/">Operating agreement from Mementor</a>
     </div>
+    <script type="module" src="../story.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the hash from the URL
+            var hash = window.location.hash;
+    
+            // If there's a hash, scroll to the corresponding element
+            if (hash) {
+                var targetElement = document.querySelector(hash);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    </script>
+    
         
     
 </body>
