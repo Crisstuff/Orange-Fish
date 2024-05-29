@@ -28,45 +28,44 @@
     </div>
 
     <div class="main-page">
-        <p>img of a person working at the OrangeFish</p>
-        <br>
-
-        <img src="" alt="">
-        <h1>So you want to work for the OrangeFish</h1>
-        <b>Good here are some things we look for in a worker</b>
-        <p>start with a plain menu that you made in photo shop- something like fly chicken </p>
-        <p>if you got more time can you try to do somthing simalar to burger king or mc donalds </p>
+        <div class="work-top">
+            <h1>So you want to work for the OrangeFish</h1>
+        </div>
         <div class="sidepage">
             <div class="sidepage-side1">
-                <img class="story-img" src="img/buuuu.png" alt="">
+                <img class="story-img" src="../img/buuuu.png" alt="">
             </div>
             <div class="sidepage-side2">
                 <h1>Good here are some things we look for in a worker</h1>
-                <b>Want to lear more about the OrangeFish?</b>
+                <b>What we look for in a worker</b>
                 <br><br>
                 <li>start with a plain menu that you made in photo shop- something like fly chicken </li>
                 <li>And where is OrangeFish now in the industry?</li>
                 <li>How did OrangeFish come to be?</li>
                 <br><br>
-                <button><a href="sections/about.html">Read more</a></button>
+         
             </div>
         </div>
+        <div class="signin">
+            <h1>Sign in</h1>
+            <button onclick="showPopup()">Read more</button>
+        </div>
         <dialog id="popUp">
-            <button id="lukk" onClick="closePopup()">
+            <button id="lukk" onclick="closePopup()">
                 X
             </button>
-            <h1>jobs</h1>
-            <p>list popup</p>
-            <p>where it say no jobs avaleble</p>
+            <h1><span id="hake">Jafs Tycoon</span>-Info</h1>
+            <hr />
+            <p>Gratulerer du har nettop blitt 18 år har 200kr på kontoen  
+                og har arvet jafs kebab-skjappa til din avdøde onkel. 
+                Heldigvis for deg får du nesten alle
+                ingredienser fra lageret og 
+                grønsakshagen til onkelen din.
+                Det eneste du mangler for å starte denne 
+                buisnissen er kebab kjøttet. Så du må begynne 
+                og tenke kreatift.
+            </p>
         </dialog>
-
-    
-        
-           
-        
-
-        
-
     </div>
     
     <div class="botnav">
@@ -81,6 +80,8 @@
         <p class="botnav-p">© Orange Fish 2024 - ALL RIGHTS RESERVED</p>
         <a href="https://mementor.no/driftsavtale/">Operating agreement from Mementor</a>
     </div>
+
+    <script type="module" src="../story.js"></script>
     
     
 </body>

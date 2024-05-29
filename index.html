@@ -16,17 +16,6 @@
 </head>
 <body>
     <div class="topnav">
-        <!-- The overlay -->
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Clients</a>
-              <a href="#">Contact</a>
-            </div>
-        </div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
         <div class="topnav-menu">
             <a class="active" href="../index.html"> Home</a>
             <a href="sections/menu.html">Menu </a>
@@ -51,8 +40,8 @@
                 <button><a href="sections/menu.html">Read more</a></button>
             </div>
             <div class="menupage-buttons">
-                <button class="menupage-button1"><a href="">Child</a></button>
-                <button class="menupage-button2"><a href="">Vegetarian</a></button>
+                <button class="menupage-button1"><a onclick="scrollToSection('child-menu')" href="sections/menu.html">Child</a></button>
+                <button class="menupage-button2"><a onclick="scrollToSection('vegetarian-menu')" href="sections/menu.html">Vegetarian</a></button>
             </div>
 
           
@@ -112,7 +101,6 @@
         <p class="botnav-p">© Orange Fish 2024 - ALL RIGHTS RESERVED</p>
         <a href="https://mementor.no/driftsavtale/">Operating agreement from Mementor</a>
     </div>
-
     <script type="module" src="story.js"></script>
 </body>
 </html>

@@ -1,13 +1,36 @@
 
-/* Open */
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const image = document.getElementById("myImage");
+  const overlay = document.getElementById("overlay");
+  image.addEventListener("click", () => {
+      overlay.classList.add("visible");
+  });
+
+  overlay.addEventListener("click", () => {
+      overlay.classList.remove("visible");
+  });
+});
+
+// dette er functionene som viser info pop-Up siden i starten av spillet
+// Venter til vinduet er lastet ned 
+
+// Viser  pop-up
+function showPopup() {
+  var popUp = document.getElementById('popUp');
+  popUp.showModal();
+}
+// function som lukker popup 
+function closePopup() {
+    var popUp = document.getElementById('popUp');
+    popUp.close();
 }
 
-/* Close */
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
+
+
 
 
 
@@ -38,18 +61,3 @@ async function initMap() {
 }
 
 initMap();
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  const image = document.getElementById("myImage");
-  const overlay = document.getElementById("overlay");
-
-  image.addEventListener("click", () => {
-      overlay.classList.add("visible");
-  });
-
-  overlay.addEventListener("click", () => {
-      overlay.classList.remove("visible");
-  });
-});
-
