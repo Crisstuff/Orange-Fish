@@ -55,12 +55,6 @@ body{
 }
 
 
-/*felles styling ligger under her*/
-section {/* Stil for seksjoner */
-    justify-content: center;
-    align-items: center;
-}
-
 
 
 /*main page styling ligger under her*/
@@ -74,18 +68,23 @@ section {/* Stil for seksjoner */
     display: flex;
     background-color: chocolate;
     padding: 50px;
+    text-align: left;
 }
 .sidepage2{
     display: flex;
     background-color: chocolate;
     padding: 50px;
     color: white;
+    text-align: left ;
 }
+
+
+
 .sidepage-side1{
     width: 50%;
     margin-right: 20px;
 }
-
+ 
 .location{
     background-color: #f3aa00;
     padding-top: 30px;
@@ -142,6 +141,7 @@ section {/* Stil for seksjoner */
 /*Work styling ligger her*/
 .signin{
     padding: 100px 0px;
+    background-color: #e8ad21;
 }
 .work-top{
     padding: 100px;
@@ -159,8 +159,7 @@ section {/* Stil for seksjoner */
 }
 .menu1{
     width: 70%;
-    border-left: solid #A67500 7px;
-    border-right: solid #A67500 7px;
+    border: solid #A67500 4px;
 }
 
 
@@ -261,3 +260,43 @@ dialog{
     opacity: 1;
 }
 
+
+
+.sidepage-orange{
+    display: flex;
+    background-color: chocolate;
+    text-align: left;
+}
+
+.sidepage-white{
+    display: flex;
+    text-align: left;
+}
+.sidepage-orange1{
+    width: 50%;
+    background-image: url(img/buuuu2l2.png);
+    background-size: cover;
+}
+.sidepage-orange2{
+    width: 50%;
+    background-image: url(img/Uten\ navn-4.png);
+    background-size: cover;
+}
+.sidepage-white1{
+    width: 50%;
+    background-image: url(img/Uten\ navn-2.png);
+    background-size: cover;
+}
+.sidepage-text1{
+    padding:50px;
+    width: 50%;
+    color: #ffffff;
+}
+.sidepage-text2{
+    padding:50px;
+    width: 50%;
+}
+.sidepage-text3{
+    padding:50px;
+    width: 50%;
+}

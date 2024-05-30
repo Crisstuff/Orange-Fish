@@ -67,3 +67,36 @@
     
   }
 }
+/*about page styling is under her*/
+@media only screen and (max-width: 600px) {
+  .sidepage-orange1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sidepage-white1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sidepage-orange2{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sidepage-text1{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sidepage-text2{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sidepage-text3{
+    width: 100%;
+  }
+}
