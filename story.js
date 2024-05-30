@@ -1,11 +1,10 @@
 
 
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const image = document.getElementById("myImage");
   const overlay = document.getElementById("overlay");
+
   image.addEventListener("click", () => {
       overlay.classList.add("visible");
   });
@@ -15,13 +14,18 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
 // dette er functionene som viser info pop-Up siden i starten av spillet
 // Venter til vinduet er lastet ned 
 
-// Viser  pop-up
+// Viser  pop-up på work side når du trykker sign inn 
 function showPopup() {
-  var popUp = document.getElementById('popUp');
-  popUp.showModal();
+    //var popUp = document.getElementById('popUp');
+    //popUp.showModal(); 
+    setTimeout(() => { // kan være posetift og negatift jag valgte å ha den med
+      alert('No jobs available');
+    }, 500); // jyster tid
+
 }
 // function som lukker popup 
 function closePopup() {
@@ -29,24 +33,12 @@ function closePopup() {
     popUp.close();
 }
 
-let previousSections = [];
-
-function scrollToSection(sectionId) {
-  let section = document.getElementById(sectionId);
-  //previousSections.style.display = 'none'; ------ meg som prøver å få den forje seksjonen til og forsvine når den neste popper opp
-  if (section) {
-      // Lagre ID-en til den forrige seksjonen
-      previousSections.push(sectionId);
-      // Vis mål-avsnittet
-      section.style.display = 'flex';
-      // Rull til mål-avsnittet
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' }) 
-  }
-}
 
 
 
 
+
+// prøvde meg på det men det tok alt for lag tid og ville ikke se like bra ut
 // Initialize and add the map
 let map;
 
