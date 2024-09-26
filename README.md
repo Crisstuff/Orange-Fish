@@ -1,3 +1,5 @@
+# Orange Fish
+
 Dette er slutt prosjektet mitt i IMVg1 på F21 
 I dette prosjektet fikk jeg bestemme hva prosjektet skulle være. etter at jeg hadde en samtale med kontaktlærern min fikk jeg høre at jeg kunne vise mer kompetanse innen design
 så da puttet jeg fokus på dette i prosjektet mitt
